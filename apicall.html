@@ -4,20 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Api Call</title>
     <style>
         body{
             background-color: yellow;
             display: flex;
             align-items: center;
-            /* position: relative;
-            justify-content: space-around; */
         }
         #container{
-            /* display: flex; */
-            /* place-items: center; */
-            /* align-items: center; */
-            /* justify-content: space-around; */
             margin: auto;
 
         }
@@ -34,14 +28,16 @@
             text-align: center;
         }
         .card-body-img{
-            width: 500px;
+            width: 300px;
             border-radius: 20px;
         }
-        .card .card-footer{
+        .card-footer{
             display: flex;
+            align-items: center;
         }
         .card-footer-social{
             padding-left: 20px;
+            padding-right: 20px;
         }
         .card-footer-social h3{
             font-size: 35px;
@@ -94,7 +90,7 @@
                     </div>
                     <div class="card-footer-social">
                         <h3>${data.demonym}</h3>
-                        <p>Demonym</p>
+                        <p>Citizenship</p>
                     </div>
                 </div>
             </article>
